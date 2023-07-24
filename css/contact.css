@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sec-contact {
+    width: 100%;
+}
+
+.contact-bg {
+    width: 100%;
+    height: 40vh;
+    background-image: url("https://media.gettyimages.com/photos/panoramic-view-of-vegetable-greenhouse-picture-id1326632939?s=2048x2048");
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-main-heading {
+    position: absolute;
+    color: #21b718fc;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    /* padding-top: 100px; */
+    align-self: center;
+    font-family: 'Volkhov', serif;
+}
+
+.con-contact {
+    max-width: 1140px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-flow: row-reverse;
+    /* margin-top: 50px; */
+}
+
+.contact-map {
+    /* margin-top: 50px; */
+}
+
+.contact-sub-part {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* align-items: center; */
+}
+
+
+.contact-side-heading {
+    color: #3498DB;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Volkhov', serif;
+}
+
+.contact-addr {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+    /* align-self: center; */
+}
+
+.contact-part-padding-left {
+    padding-left: 22px;
+}
